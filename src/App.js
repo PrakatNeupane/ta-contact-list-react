@@ -6,7 +6,6 @@ import { Spinner } from './components/Spinner';
 import Title from './components/Title';
 import { fetchContacts } from './helper/axiosHelper';
 
-
 const App = () => {
   const [contacts, setContacts] = useState([])
   const [users, setUsers] = useState([])
@@ -32,8 +31,6 @@ const App = () => {
     )
     setContacts(filterArgs)
   }
-
-
 
   return (
     <div className="wrapper">
