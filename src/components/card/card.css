@@ -1,0 +1,16 @@
+i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(145, 140, 186);
+}
+h5 {
+  color: rgb(39, 16, 209);
+}
+.card {
+  height: 30vh;
+  min-width: fit-content;
+}
